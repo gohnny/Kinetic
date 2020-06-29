@@ -95,7 +95,7 @@ CREATE TABLE `pages` (
 
 LOCK TABLES `pages` WRITE;
 /*!40000 ALTER TABLE `pages` DISABLE KEYS */;
-INSERT INTO `pages` VALUES (1,'about_us','about','about','about','This is about page!',NULL,'2020-06-29 14:42:06','2020-06-29 14:42:06',NULL),(2,'about_us','contact_us','contact','contact','This is contact page!',NULL,'2020-06-29 14:42:57','2020-06-29 14:42:57',NULL);
+INSERT INTO `pages` VALUES (1,'about_us','about','about','about','This is about page!',NULL,'2020-06-29 14:42:06','2020-06-29 14:42:06',NULL),(2,'contact','contact_us','contact','contact','<p>This is contact page!</p>',NULL,'2020-06-29 14:42:57','2020-06-29 15:01:45',NULL);
 /*!40000 ALTER TABLE `pages` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -139,4 +139,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-06-29 17:53:21
+-- Dump completed on 2020-06-29 18:07:54
